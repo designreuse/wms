@@ -1,0 +1,37 @@
+/* Custom CSS */
+
+label.error {
+    color:#FB3A3A;
+    background:#F2DEDE;
+    font-size: 13px;
+    border:1px solid #f5aca6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #d4d4d4;
+    padding: 4px 5px 0px 5px;
+}
+
+.modal.fade:not(.in).left .modal-dialog {
+	-webkit-transform: translate3d(-25%, 0, 0);
+	transform: translate3d(-25%, 0, 0);
+}
+.modal.fade:not(.in).right .modal-dialog {
+	-webkit-transform: translate3d(25%, 0, 0);
+	transform: translate3d(25%, 0, 0);
+}
+.modal.fade:not(.in).bottom .modal-dialog {
+	-webkit-transform: translate3d(0, 25%, 0);
+	transform: translate3d(0, 25%, 0);
+}
+
+#editor-modal pre{
+    height: 420px;
+}
+
+ #editor {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: -15px;
+     left: 0;
+     font-size: 14px;
+ }
